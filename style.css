@@ -1,3 +1,100 @@
+/* 
+  The style rules specify elements by type and by attributes such as class and ID
+  Each section indicates an element or elements, then lists the style properties to apply
+  You can see that some of the selectors are already prepared for you, but everything is up to you
+*/
+
+/*
+  When you target Body the rules will apply to everything on your page
+  This is usefull for implementing fonts or background
+*/
+
+body {
+  background-color: #3cb878;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.wrapper {
+  display: grid;
+  place-items: center;
+  margin: 0 1rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-box {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  max-width: 310px;
+  max-height: 200px;
+  background-color: ghostwhite;
+  padding-top: 50px;
+  margin: 0;
+  box-shadow: 0 0 0 1px darkgray, 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+}
+
+.bat {
+  max-width: 110px;
+  max-height: 110px;
+  margin: 20px;
+}
+.main {
+  text-align: center;
+  max-width: 600px;
+}
+
+h1,
+h2 {
+  font-family: "Permanent Marker", cursive;
+}
+
 h1 {
-    color: red;
+  color: #3cb878;
+  background-color: DarkSlateGray;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+h2 {
+  color: DarkSlateGray;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: ghostwhite;
+  font-size: 20px;
+  line-height: 1.3;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+h3 {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 22px;
+  font-style: italic;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+ul {
+  font-size: 18px;
+  color: darkslateGray;
+  list-style-position: inside;
+  background-color: ghostwhite;
+  border-radius: 20px;
+  padding: 10px;
+  line-height: 1.5;
+  font-weight: 600;
+  text-align: left;
+  box-shadow: 0 0 0 1px darkgray, 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
